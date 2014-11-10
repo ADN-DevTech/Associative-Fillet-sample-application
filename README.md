@@ -21,3 +21,9 @@ AssocFilletActionBody.h   ... Declaration    of the AssocFilletActionBody class
 AssocFilletActionBody.cpp ... Implementation of the AssocFilletActionBody class
 AssocFilletCommandUI.cpp  ... Simple command-line UI
 
+Building the sample application:
+
+Please copy all source files into a new arxsdk\samples\entity\AssocFillet 
+directory in order to be able to build the project. AssocFillet.vcxproj references 
+files in arxsdk\inc and the source files need to be placed in a second-level 
+subdirectory under arxsdk\samples directory.
